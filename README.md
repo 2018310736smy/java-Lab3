@@ -28,3 +28,5 @@
     Test：增加一个学生和一个教师的，分别使用System.out.println(students.toString())System.out.println(teachers.toString())输出信息。
 
 #流程图：
+
+![image]()
