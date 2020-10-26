@@ -30,3 +30,51 @@
 #流程图：
 
 ![image](https://github.com/2018310736smy/java-Lab3/blob/main/liuchengtu.png)
+
+#核心代码（部分）：
+选课系统：
+int   Num;
+  String   Name;
+  String   Sex;
+ int getNum() {
+      return Num;
+    }
+ String getName() {
+      return Name;
+    }
+ String getSex() {
+      return Sex;
+
+Majorattribute：
+int Num;
+ String Name;
+ String Place;
+ String getPlace() {
+     return Place;
+   }
+ int getNum() {
+     return Num;
+   }
+ String getName() {
+     return Name;
+   }
+ float Time;
+ float getTime() {
+     return Time;
+   }
+ float Score;
+ float getScore() {
+     return Score;
+   }
+ public Majorattribute(String name,int num,String place,float time,float score) {
+  this.Name = name;
+  this.Num = num;
+  this.Place = place;
+  this.Time = time;
+  this.Score = score;
+  }  //调用Majorattribute方法，获取姓名、编号、上课地点、时间、学分的值
+ public String toString() {
+ return Name + "   " + Name + "的课程概述：" + Name+ "课程编号：" + Num + "上课地点：" + Place + "    课程时间：" + Time + "小时" 
+ + "课程学分：" + Score + "分";
+ }//用toString方法打印出课程的属性
+
