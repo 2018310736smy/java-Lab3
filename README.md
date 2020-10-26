@@ -77,3 +77,9 @@ public String toString() {
 	return Name + "      " + Name + "的课程概述：" + Name+ "     课程编号：" + Num + "   上课地点：" + Place + "    课程时间：" + Time + "小时" + "     课程学分：" +  Score + "分";
 	}
 }
+
+#运行结果截图：
+
+![image](https://github.com/2018310736smy/java-Lab3/blob/main/yunxingjieguo.jpg)
+
+#
