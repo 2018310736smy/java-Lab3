@@ -19,3 +19,12 @@
 #实验要求：
 1.编写上述实体类以及测试主类（注意类之间继承关系的适用）
 2.在测试主类中，实例化多个类实体，模拟学生选课操作、打印课程信息（信息包括：编号、课程名称、上课地点、时间、授课教师）；模拟学生退课操作，再打印课程信息。
+
+#实验过程：
+    首先，需要建立一个package命名为“xuankexitong”。插入一个父类class，在class中定义 Num为int型，Name、Sex为string型。使用get分别获得Num、Name、Sex。
+    再建立一个class名为“Majorattribute”。调用Majorattribute方法，获取姓名、编号、上课地点、时间、学分的值。然后用toString方法打印出课程的属性。
+    建立一个class名为“students”。“students”继承“xuankexitong”的类、方法。通过toString方法打印出 "Students(学生信息):  姓名：" + Name + "学号：" + Num + "性别："+ Sex + "所选课程"+a。然后定义set函数用于修改名字。
+    建立一个class名为“Teachers”。“Teachers”继承“xuankexitong”的类、方法。通过toString方法打印出 "Teachers(老师信息):  姓名：" + Name + "工号：" + Num + "性别："+ Sex + "教授课程"+lesson。
+    Test：增加一个学生和一个教师的，分别使用System.out.println(students.toString())System.out.println(teachers.toString())输出信息。
+
+#流程图：
